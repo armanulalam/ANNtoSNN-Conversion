@@ -9,8 +9,6 @@
 ## 🎯 Quick Start (3 Commands)
 
 ```bash
-conda create -n snnproj python=3.9 -y
-conda activate snnproj
 pip install -r requirements.txt  # Install dependencies
 python demo.py                   # Verify setup (1 min)
 python train_ann.py              # Train ANN (1-10 hours)
@@ -76,14 +74,9 @@ cd ANNtoSNN-Conversion
 
 ```bash
 # Create virtual environment
-python -m venv venv
-
-# Activate it
-# On Windows:
-venv\Scripts\activate
-
-# On Mac/Linux:
-source venv/bin/activate
+conda create -n snnproj python=3.9 -y
+# Activating it
+conda activate snnproj
 ```
 
 ### Step 3: Install Dependencies
