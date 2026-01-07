@@ -1,0 +1,118 @@
+======================================================================
+ANN to SNN Conversion - Experiment Results
+======================================================================
+
+ANN Baseline Accuracy: 89.23%
+
+SNN Performance at Different Timesteps:
+----------------------------------------------------------------------
+
+Timesteps: 5
+  Accuracy: 42.71%
+  Total Spikes: 145,084,942.0
+  Avg Spikes/Sample: 14508.49
+  Spike Distribution:
+    layer1: 125,854,869.0
+    layer2: 13,277,139.0
+    layer3: 2,821,190.0
+    layer4: 3,055,370.0
+    layer5: 76,374.0
+
+Timesteps: 10
+  Accuracy: 53.88%
+  Total Spikes: 339,588,125.0
+  Avg Spikes/Sample: 33958.81
+  Spike Distribution:
+    layer1: 284,569,743.0
+    layer2: 37,355,551.0
+    layer3: 10,069,281.0
+    layer4: 7,387,134.0
+    layer5: 206,416.0
+
+Timesteps: 15
+  Accuracy: 57.58%
+  Total Spikes: 533,816,137.0
+  Avg Spikes/Sample: 53381.61
+  Spike Distribution:
+    layer1: 443,161,830.0
+    layer2: 61,427,155.0
+    layer3: 17,507,670.0
+    layer4: 11,378,371.0
+    layer5: 341,111.0
+
+Timesteps: 20
+  Accuracy: 59.19%
+  Total Spikes: 728,832,420.0
+  Avg Spikes/Sample: 72883.24
+  Spike Distribution:
+    layer1: 602,618,098.0
+    layer2: 85,454,957.0
+    layer3: 24,970,467.0
+    layer4: 15,310,339.0
+    layer5: 478,559.0
+
+Timesteps: 25
+  Accuracy: 60.06%
+  Total Spikes: 921,986,215.0
+  Avg Spikes/Sample: 92198.62
+  Spike Distribution:
+    layer1: 760,290,867.0
+    layer2: 109,406,826.0
+    layer3: 32,441,571.0
+    layer4: 19,229,467.0
+    layer5: 617,484.0
+
+Timesteps: 30
+  Accuracy: 60.52%
+  Total Spikes: 1,118,373,101.0
+  Avg Spikes/Sample: 111837.31
+  Spike Distribution:
+    layer1: 921,082,976.0
+    layer2: 133,475,318.0
+    layer3: 39,915,200.0
+    layer4: 23,142,047.0
+    layer5: 757,560.0
+
+Timesteps: 40
+  Accuracy: 61.06%
+  Total Spikes: 1,506,981,926.0
+  Avg Spikes/Sample: 150698.19
+  Spike Distribution:
+    layer1: 1,238,595,240.0
+    layer2: 181,521,784.0
+    layer3: 54,864,535.0
+    layer4: 30,961,945.0
+    layer5: 1,038,422.0
+
+Timesteps: 50
+  Accuracy: 61.48%
+  Total Spikes: 1,894,583,829.0
+  Avg Spikes/Sample: 189458.38
+  Spike Distribution:
+    layer1: 1,555,050,977.0
+    layer2: 229,599,507.0
+    layer3: 69,835,845.0
+    layer4: 38,777,861.0
+    layer5: 1,319,639.0
+
+Timesteps: 75
+  Accuracy: 61.79%
+  Total Spikes: 2,866,211,931.0
+  Avg Spikes/Sample: 286621.19
+  Spike Distribution:
+    layer1: 2,348,759,052.0
+    layer2: 349,896,393.0
+    layer3: 107,218,951.0
+    layer4: 58,314,508.0
+    layer5: 2,023,027.0
+
+Timesteps: 100
+  Accuracy: 61.93%
+  Total Spikes: 3,839,160,623.0
+  Avg Spikes/Sample: 383916.06
+  Spike Distribution:
+    layer1: 3,144,291,124.0
+    layer2: 469,775,860.0
+    layer3: 144,526,767.0
+    layer4: 77,840,677.0
+    layer5: 2,726,195.0
