@@ -4,9 +4,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **One-Line Summary**: Train a conventional CNN (ANN) using PyTorch, convert it into a Spiking Neural Network (SNN), and analyze accuracy–latency–energy trade-offs using spike-based inference.
 
-## 🎯 Quick Start (3 Commands)
+## 🎯 Quick Start
 
 ```bash
 pip install -r requirements.txt  # Install dependencies
@@ -33,7 +32,7 @@ python evaluate_snn.py           # Evaluate SNN (10-15 min)
 
 ---
 
-## 🎓 Research Motivation
+## 🎓 Project Motivation
 
 Conventional neural networks perform **dense computations** at every layer, which is energy-inefficient for edge and neuromorphic systems. **Spiking Neural Networks (SNNs)** communicate using **sparse spikes over time**, offering a biologically inspired and energy-efficient alternative.
 
@@ -101,9 +100,8 @@ python -c "import torch; import snntorch; print('✓ All packages installed')"
 
 ## 🎯 How to Run This Project
 
-### Complete Pipeline (4 Steps)
 
-#### **Step 0: Quick Verification (1 minute)**
+#### **Step 0: Quick Verification**
 
 Before running the full pipeline, verify everything works:
 
