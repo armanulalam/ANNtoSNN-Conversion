@@ -374,13 +374,9 @@ ANNtoSNN-Conversion/
 ├── utils.py                        # Helper functions
 ├── demo.py                         # Quick verification script
 │
-├── download_cifar10.py             # Manual CIFAR-10 download
-├── cleanup_data.py                 # Data cleanup utility
 │
 ├── requirements.txt                # Dependencies
 ├── README.md                       # This file
-├── QUICKSTART.md                   # Quick start guide
-├── TROUBLESHOOTING.md              # Common issues & solutions
 └── LICENSE                         # MIT License
 ```
 
